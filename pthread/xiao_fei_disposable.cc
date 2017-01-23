@@ -1,7 +1,3 @@
-// CSE 5441 Lab 1
-// Fei Xiao (xiao.466@osu.edu)
-//
-
 #include "stdlib.h"
 #include "Box.h"
 #include <iostream>
@@ -11,7 +7,7 @@
 #include <time.h>
 #include <chrono>
 #include <omp.h>
-//#include <pthread.h>
+#include <pthread.h>
 
 using namespace std;
 
@@ -84,7 +80,7 @@ int main(int argc, char* argv[])
 
 
 	/////////////////////////////////////////
-	//			Dissipation Model		   //
+	//	   Dissipation Model	       //
 	///////////////////////////////////////// 
 
 	// computed temperature values
