@@ -3,10 +3,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <vector>
 #include <time.h>
 #include <chrono>
-#include <omp.h>
 #include <pthread.h>
 
 using namespace std;
